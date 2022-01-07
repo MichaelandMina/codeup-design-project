@@ -22,6 +22,7 @@ h5{font-size: var(--font-size-28);}
     font-family: 'Abel', sans-serif;
 }
 
+
 h1,h2,h3,h4,h5{font-family: 'Anton', sans-serif;}
 
 p{font-family: 'Abel', sans-serif;}
@@ -57,3 +58,16 @@ p{font-family: 'Abel', sans-serif;}
 .button--develop{background-color: var(--color-yellow);}
 .button--support{background-color: var(--color-light-green);}
 .button--host{background-color: var(--color-dark-green);}
+
+.btn-circle-sm {
+    width: 18px;
+    height: 18px;
+    padding: 1px 0px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 16px;
+
+
+    font-family: 'Anton', sans-serif;
+}
