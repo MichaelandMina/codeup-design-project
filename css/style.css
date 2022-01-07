@@ -5,22 +5,41 @@
     --color-dark-green: #00ABA9;
     --color-light-grey: #F0F0F0;
     --color-grey: #E6E6E6;
-
+    --font-size-64: 64px;
+    --font-size-48: 48px;
+    --font-size-40: 40px;
+    --font-size-32: 32px;
+    --font-size-28: 28px;
 }
-.container{background-color: var(--color-grey)}
-h1{font-size: 64px;}
-h2{font-size: 48px;}
-h3{font-size: 40px;}
-h4{font-size: 32px;}
-h5{font-size: 28px;}
+body{background-color: var(--color-grey)}
+h1{font-size: var(--font-size-64);}
+h2{font-size: var(--font-size-48);}
+h3{font-size: var(--font-size-40);}
+h4{font-size: var(--font-size-32);}
+h5{font-size: var(--font-size-28);}
+
+.font--text {
+    font-family: 'Abel', sans-serif;
+}
 
 h1,h2,h3,h4,h5{font-family: 'Anton', sans-serif;}
 
 p{font-family: 'Abel', sans-serif;}
 
-.navbar--heading--image {left: 30px;}
+.navbar--heading--image {
+    transform: translate(-50%,-35%);
+}
 
+.navbar--heading-filler {
+    width: 100%;
+    height: 35px;
+}
 .navbar--heading--title {margin: 0 130px;}
+
+.container--heading--title {
+    font-size: 4em;
+    text-align: center;
+}
 
 .btn-circle {
     width: 100px;
