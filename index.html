@@ -19,89 +19,141 @@
 </head>
 <body>
 
-<nav class="navbar navbar-light bg-light mt-5 d-flex justify-content-center">
+<div class="d-block d-sm-none">
+    <nav class="navbar navbar-light bg-light mt-5 d-flex justify-content-center">
+        <div class="position-relative">
+            <img class="navbar--heading--image--xs position-absolute" src="img/logo.png" width="150px" height="150px">
+            <div class="navbar--heading-filler"></div>
+        </div>
+    </nav>
+</div>
+<div class="d-none d-sm-block">
+    <nav class="navbar navbar-light bg-light mt-5 d-flex justify-content-around">
+        <ul class="nav align-self-start font--text">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">WORK</a>
+            </li>
+        </ul>
 
-    <div class="d-block d-sm-none position-relative">
-        <img class="navbar--heading--image position-absolute" src="img/logo.png" width="105px" height="105px">
-        <div class="navbar--heading-filler"></div>
-    </div>
+        <img class="navbar--heading--image--sm position-absolute" src="img/logo.png" width="105px" height="105px">
 
-<!--    <div class="d-none d-sm-block position-relative">-->
-<!--        <img class="navbar&#45;&#45;heading&#45;&#45;image position-absolute" src="img/logo.png" width="105px" height="105px">-->
-<!--        <a class="navbar-brand navbar&#45;&#45;heading&#45;&#45;title" href="#">-->
-<!--            Codeup Design-->
-<!--        </a>-->
-<!--    </div>-->
+        <ul class="nav justify-content-end font--text">
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
-<!--    <ul class="nav justify-content-end d-none d-sm-block">-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link active" href="#">Active</a>-->
-<!--        </li>-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="#">Link</a>-->
-<!--        </li>-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="#">Link</a>-->
-<!--        </li>-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="#">Disabled</a>-->
-<!--        </li>-->
-<!--    </ul>-->
-</nav>
 <div class="container">
 
 <!--    <div class="d-block d-sm-none">-->
     <div class="container--heading--title font--text pt-3">codeup design</div>
 <!--    </div>-->
-
-    <div class="row text-center font--text mx-4">
-        <div class="col">
-            SERVICES
-        </div>
-        <div class="col">
-            WORK
-        </div>
-        <div class="col">
-            BLOG
-        </div>
-        <div class="col">
-            CONTACT
-        </div>
-    </div>
-    <h1 class="text-center py-5">VISUAL DESIGN & WEB DEVELOPMENT</h1>
-    <h3 class="text-center pb-3">FROM PARK CITY, UTAH</h3>
-    <div class="row">
-        <div class="col-sm-3 col-6 text-center">
-            <button type="button" class="btn btn-circle button--design">DESIGN</button>
-        </div>
-        <div class="col-sm-3 col-6 text-center">
-            <button type="button" class="btn btn-circle button--develop">DEVELOP</button>
-        </div>
-        <div class="col-sm-3 col-6 text-center">
-            <button type="button" class="btn btn-circle button--support">SUPPORT</button>
-        </div>
-        <div class="col-sm-3 col-6 text-center">
-            <button type="button" class="btn btn-circle button--host">HOST</button>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <p class="font--text text-center ">SELECTED WORK</p>
-    <div class="p-2 ">
-        <img src="img/apple-ipad.jpg" class="card-img-top py-2" alt="...">
-        <div class="">
-            <span class="font--text">FEATURED PROJECT</span>
-            <div class="float-right d-inline">
-                <button type="button" class="btn btn-circle-sm button--design">D</button>
-                <button type="button" class="btn btn-circle-sm button--develop">D</button>
-                <button type="button" class="btn btn-circle-sm button--support">S</button>
-                <button type="button" class="btn btn-circle-sm button--host">H</button>
+    <div class="d-block d-sm-none ">
+        <div class="row text-center font--text mx-4">
+            <div class="col">
+                SERVICES
+            </div>
+            <div class="col">
+                WORK
+            </div>
+            <div class="col">
+                BLOG
+            </div>
+            <div class="col">
+                CONTACT
             </div>
         </div>
     </div>
 
+    <h1 class="text-center py-5">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+    <h3 class="text-center pb-3">FROM PARK CITY, UTAH</h3>
+    <div class="row">
+        <div class="col-sm-3 col-6 text-center">
+            <div class="d-block d-sm-none">
+                <button type="button" class="btn btn-circle-xm button--design">DESIGN</button>
+            </div>
+            <div class="d-none d-sm-block">
+                <button type="button" class="btn btn-circle button--design">DESIGN</button>
+            </div>
+        </div>
+        <div class="col-sm-3 col-6 text-center">
+            <div class="d-block d-sm-none">
+                <button type="button" class="btn btn-circle-xm button--develop">DEVELOP</button>
+            </div>
+            <div class="d-none d-sm-block">
+                <button type="button" class="btn btn-circle button--develop">DEVELOP</button>
+            </div>
+        </div>
+        <div class="col-sm-3 col-6 text-center">
+            <div class="d-block d-sm-none">
+                <button type="button" class="btn btn-circle-xm button--support">SUPPORT</button>
+            </div>
+            <div class="d-none d-sm-block">
+                <button type="button" class="btn btn-circle button--support">SUPPORT</button>
+            </div>
+        </div>
+        <div class="col-sm-3 col-6 text-center">
+            <div class="d-block d-sm-none">
+                <button type="button" class="btn btn-circle-xm button--host">HOST</button>
+            </div>
+            <div class="d-none d-sm-block">
+                <button type="button" class="btn btn-circle button--host">HOST</button>
+            </div>
+        </div>
+    </div>
+    <div class="d-none d-sm-block"><hr></div>
+    <div class="d-block d-sm-none "><br><br></div>
+    <br>
+    <p class="font--text text-center ">SELECTED WORK</p>
 
+    <div class="p-2">
+        <img src="img/apple-ipad.jpg" class="card-img-top py-2" alt="...">
+        <span class="font--text">FEATURED PROJECT</span>
+        <div class="float-right d-inline">
+            <button type="button" class="btn btn-circle-sm button--design">D</button>
+            <button type="button" class="btn btn-circle-sm button--develop">D</button>
+            <button type="button" class="btn btn-circle-sm button--support">S</button>
+            <button type="button" class="btn btn-circle-sm button--host">H</button>
+        </div>
+    </div>
+    <div class="p-2">
+        <img src="img/macbook.jpg" class="card-img-top py-2" alt="...">
+        <span class="font--text">FEATURED PROJECT</span>
+        <div class="float-right d-inline">
+            <button type="button" class="btn btn-circle-sm button--design">D</button>
+            <button type="button" class="btn btn-circle-sm button--develop">D</button>
+            <button type="button" class="btn btn-circle-sm button--support">S</button>
+            <button type="button" class="btn btn-circle-sm button--host">H</button>
+        </div>
+    </div>
+    <div class="p-2">
+        <img src="img/man.jpg" class="card-img-top py-2" alt="...">
+        <span class="font--text">FEATURED PROJECT</span>
+        <div class="float-right d-inline">
+            <button type="button" class="btn btn-circle-sm button--design">D</button>
+            <button type="button" class="btn btn-circle-sm button--develop">D</button>
+            <button type="button" class="btn btn-circle-sm button--support">S</button>
+            <button type="button" class="btn btn-circle-sm button--host">H</button>
+        </div>
+    </div>
+    <div class="p-2">
+        <img src="img/security.jpg" class="card-img-top py-2" alt="...">
+        <span class="font--text">FEATURED PROJECT</span>
+        <div class="float-right d-inline">
+            <button type="button" class="btn btn-circle-sm button--design">D</button>
+            <button type="button" class="btn btn-circle-sm button--develop">D</button>
+            <button type="button" class="btn btn-circle-sm button--support">S</button>
+            <button type="button" class="btn btn-circle-sm button--host">H</button>
+        </div>
+    </div>
 </div>
 
 
