@@ -84,3 +84,20 @@ p{font-family: 'Abel', sans-serif;}
     line-height: 16px;
     font-family: 'Anton', sans-serif;
 }
+.sm-pic{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+
+
+i.tweeter{
+    color: dodgerblue;
+}
+.img-try {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    width: 95%;
+}
